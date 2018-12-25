@@ -6,7 +6,7 @@
 #include "DHT.h"
 #define DHTGRND D6
 #define DHTPIN D5
-#define DHT5V D8
+#define DHT5V D8 //Az 5V pinnel folyamatosan újr akellett indítani a senzort a műödéshez, így inkább egy digit pint állítunk 5V-ra
 #define PIRPIN D2
 #define DHTTYPE DHT22
 
